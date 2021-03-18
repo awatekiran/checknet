@@ -1,7 +1,7 @@
 #!/bin/bash
 #
 ## change directory to the rrdtool script dir
-cd /Users/kawate/repos/checknetfi/
+cd /Users/kawate/kiRan/repos/checknet/
  
 ## Graph for last 24 hours 
 /usr/local/bin/rrdtool graph latency_graph.png \
