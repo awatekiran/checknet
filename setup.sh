@@ -15,7 +15,7 @@ echo "[Info] Initializing database..."
 sleep 3
 echo "[Info] Setting up cron..."
 crontab -l > mycron
-echo "* * * * * /bin/sh update_rrd" >> mycron
-echo "* * * * * /bin/sh create_graph.sh" >> mycron
+echo "* * * * * /bin/sh ~/checknet/update_rrd" >> mycron
+echo "* * * * * /bin/sh ~/checknet/create_graph.sh" >> mycron
 crontab mycron
 rm mycron

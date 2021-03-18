@@ -26,7 +26,7 @@ get_data() {
 }
  
 ### change to the script directory
-cd /Users/kawate/kiRan/repos/checknet/
+cd ~/checknet/
  
 ### collect the data
 get_data $hosttoping
